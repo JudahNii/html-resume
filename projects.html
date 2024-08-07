@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <title>My Resume</title>
+</head>
+<body>
+    <header>
+        <div class="name header">
+            <a href="index.html">
+                <h2><span id="main-name">Bonney Judah</span> Nii</h2>
+            </a>
+            <ul>
+                <li><a href="resume.html" class="resume">Resume</a></li>
+                <li><a href="projects.html" class="projects">Projects</a></li>
+                <li class="contact pulse_1s"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <hr class="line">
+            <h2 class="project title"><span id="main-name">01.</span> Project Archive</h2>
+            <hr class="line">
+            <p class="project text slide-in_1s">
+                Final year project documentations play a crucial role for students and institutions, yet
+                managing hardcopy archives of them poses significant challenges. This project aimed to
+                design and implement a web-based archive system to digitize documentation management
+                at Regent University College of Science and Technology, Ghana. An Agile methodology was
+                adopted for this project. This involved gathering requirements through detailed interviews
+                and observations. The design phase utilized UML diagrams, including use case and ER
+                diagrams. The proposed system was built using web technologies like HTML, CSS,
+                Bootstrap, and Django (Python). This system enables different user roles, including visitors,
+                students, department heads, and administrators, to access and manage project documents
+                online conveniently. The implementation involved developing a functional web application,
+                which included coding and testing. Unit testing was conducted to ensure the application met
+                the required standards. Additionally, the project documentations are stored in Google Drive
+                using the Google Drive API, which ensures secure and accessible storage of all documents.
+                As a result of this project, the Project Documentation Archive System (ProjectArchive) for
+                Regent University has been developed. This system allows students to upload their projects
+                and access past documents online at their convenience.
+            </p>
+            <img src="images/project1.png" alt="" class="project image">
+            <img src="images/project2.png" alt="" class="project image">
+
+        </div>
+
+        <div class="main">
+            <hr class="line">
+            <h2 class="project title"><span id="main-name">02.</span> Incoming</h2>
+            <hr class="line">
+            <p class="project text">
+                Incoming...
+            </p>
+            <!-- <img src="" alt="" class="project image"> -->
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/judah.bonney">Facebook</a></li>
+            <li><a href="https://twitter.com/bonney_judah">X/Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/judah-bonney-ab594a122">LinkedIn</a></li>
+            <li><a href="https://github.com/JudahNii">Github</a></li>
+        </ul>
+        <p class="copyright">&copy; <span id="year"></span>. All rights reserved.</p>
+    </footer>
+    <script>
+        const yearElement = document.getElementById("year");
+        yearElement.textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+main>div {
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.dev, #main-name {
+    color: #6D929C;
+}
+
+footer p {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.image img {
+    width: 300px;
+    border: 25px solid #6D929C;
+    border-radius: 40px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 10px;
+    height: 370px;
+}
+
+#summary {
+    width: 85%;
+}
+
+#network-dev {
+    margin-left: 10px;
+}
+
+.line {
+    color: white;
+    margin-left: 10px;
+}
+
+.line.one {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+.bio-left {
+    margin-left: 30px;
+    margin-top: -120px;
+}
+
+.cert-img {
+    width: 90px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -110px;
+}
+
+.logos img {
+    border: 8px solid #6D929C;
+}
+
+.logos>.second {
+    width: 200px;
+}
+
+.logos>.third {
+    border-radius: 30px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>My Resume</title>
+</head>
+<body>
+    <header>
+        <div class="name header">
+            <a href="index.html">
+                <h2><span id="main-name">Bonney Judah</span> Nii</h2>
+            </a>            <ul>
+                <li><a href="resume.html" class="resume">Resume</a></li>
+                <li><a href="projects.html" class="projects">Projects</a></li>
+                <li class="contact pulse_1s"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <h1>Contact</h1>
+                <p>Looking forward to hearing from you.</p>
+                <h3>Phone</h3>
+                <p>+233 <span id="main-name">59 810 8118</span></p>
+                <h3>Email</h3>
+                <p><span id="main-name">bonneyjudahnii</span>@gmail.com</p>
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/judah.bonney">Facebook</a></li>
+                    <li><a href="https://twitter.com/bonney_judah">X/Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/judah-bonney-ab594a122">LinkedIn</a></li>
+                    <li><a href="https://github.com/JudahNii">Github</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <form action="">
+                    <div class="first">
+                        <label for="first-name">First Name</label> <br>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+
+                    <div class="second">
+                        <label id="second-label-label" for="last-name">Last Name</label> <br>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+
+                    <br><br>
+                    <div class="third">
+                        <label for="email">Email</label> <br>
+                        <input type="text" name="email" id="email">
+                    </div>
+
+                    <div class="fourth">
+                        <label for="subject">Subject</label> <br>
+                        <input type="text" name="subject" id="subject">
+                    </div>
+                    
+                    <div class="fifth">
+                        <label for="message">Message</label> <br>
+                        <textarea name="message" id="message-area"></textarea>
+                        <button type="button" class="pulse_1s">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/judah.bonney">Facebook</a></li>
+            <li><a href="https://twitter.com/bonney_judah">X/Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/judah-bonney-ab594a122">LinkedIn</a></li>
+            <li><a href="https://github.com/JudahNii">Github</a></li>
+        </ul>
+        <p class="copyright">&copy; <span id="year"></span>. All rights reserved.</p>
+    </footer>
+    <script>
+        const yearElement = document.getElementById("year");
+        yearElement.textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

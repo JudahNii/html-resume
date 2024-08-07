@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>My Resume</title>
+</head>
+<body>
+    <header>
+        <div class="name header">
+            <a href="index.html">
+                <h2><span id="main-name" class="text-shadow_1s">Bonney Judah</span> Nii</h2>
+            </a>
+            <ul>
+                <li><a href="resume.html" class="resume">Resume</a></li>
+                <li><a href="projects.html" class="projects">Projects</a></li>
+                <li class="contact pulse_1s"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="fade-In_1s">
+            <div class="profile section">
+                <div class="image bio">
+                    <div class="bio-left slide-in_1s">
+                        <h2 class="dev">
+                            <span class="line one">*</span>Web Developer<span class="line">*</span><span id="network-dev">Network Engineer</span>
+                        </h2> 
+                        <p class="fade-In_1s" id="summary">
+                            As a student, I have developed a deep interest in using technology to improve the efficiency of
+                            tasks. I am driven by a strong desire to keep learning and exploring better ways to accomplish
+                            goals. The idea that there can always be room for growth motivates me to improve my skills.
+                            One of my strengths is looking at problems from different angles. This helps me identify issues
+                            and, with valuable input, find solutions. My unique skill sets include proficiency in coding,
+                            computer networking, and identifying diverse perspectives. I am eager to continuously learn,
+                            provide valuable input where I can, and uphold ethical standards in all my endeavors.
+                        </p>
+                    </div>
+                    <img src="images/full white.jpg" alt="" class="clip-path_2s">
+                </div>
+                <div class="logos slide-in_1s">
+                    <img class="cert-img first" src="cert/hcia-image.png" alt="">
+                    <img src="cert/AITI-image.png" alt="" class="cert-img second bounce_05s">
+                    <img src="cert/reg-images.jpg" alt="" class="cert-img third rotate_2s">
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/judah.bonney">Facebook</a></li>
+            <li><a href="https://twitter.com/bonney_judah">X/Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/judah-bonney-ab594a122">LinkedIn</a></li>
+            <li><a href="https://github.com/JudahNii">Github</a></li>
+        </ul>
+        <p class="copyright fade-In_1s">&copy; <span id="year"></span>. All rights reserved.</p>
+    </footer>
+    <script>
+        const yearElement = document.getElementById("year");
+        yearElement.textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    width: 80%;
+    background-color: #1a1a1a;
+}
+
+.project.text,
+.project.image {
+    margin-bottom: 40px;
+}
+
+#main-name {
+    color: greenyellow;
+}
+
+.project.image {
+    border: 5px dotted greenyellow;
+    border-radius: 50px;
+}
+
+.project.image, .line {
+    background-color: greenyellow;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+}

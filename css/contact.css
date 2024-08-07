@@ -1,0 +1,81 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    display: block;
+}
+
+form input {
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+form textarea {
+    width: 430px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    font-size: large;
+    background: transparent;
+    color: white;
+}
+
+.first,
+.third {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.second,
+.fourth {
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.left li {
+    margin-left: 20px;
+}
+
+.left ul,
+#fb-logo {
+    padding: 0;
+    margin-left: 0px;
+}
+
+.right {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.left h3 {
+    margin-top: 30px;
+}
+
+#main-name {
+    color: goldenrod;
+    animation: text-shadow 1s ease-in-out;
+}
+
+.left ul {
+    color: goldenrod;
+}
+
+.right button {
+    font-size: 1.5rem;
+    color: black;
+    background-color: goldenrod;
+    margin-right: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
